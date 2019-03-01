@@ -14,7 +14,7 @@
                                                      b (/(* i j)255)
                                                      ]
                                               ]
-                                           (str r " " g " " b "\n")))]
+                                           (str r " " g " " b )))]
     (spit "test2.ppm" head )
     (spit "test2.ppm" matrix)))
 
